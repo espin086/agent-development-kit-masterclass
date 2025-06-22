@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "agent-development-kit-masterclass"
+version = "0.1.0"
+description = ""
+authors = ["JJ <4843736+espin086@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-adk = "^1.4.2"
+yfinance = "^0.2.63"
+psutil = "^7.0.0"
+litellm = "^1.73.0"
+google-generativeai = "^0.8.5"
+python-dotenv = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
